@@ -25,9 +25,9 @@
 
 ## Mais Informações
 
-https://ejs.co/
-https://github.com/Soarez/express-ejs-layouts
-https://docs.npmjs.com/cli/v7/configuring-npm/package-json
+- https://ejs.co/
+- https://github.com/Soarez/express-ejs-layouts
+- https://docs.npmjs.com/cli/v7/configuring-npm/package-json
 
 # Licença
 
