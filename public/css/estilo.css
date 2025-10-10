@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --verde1: #033228;
+    --verde2: #11603E;
+    --verde3:  #527B5D;
+    --verde4: #B2D6BA; 
+    --verde5: #BFEFC9;
+    --marrom1: #42210B;
+    --marrom2: #8F7751;
+    --bege1: #DED1AA;
+    --bege2: #EFE8D8;
+    --bege3: #FFFDF8;
+    --preto1: #282828;
+    --cinza1: #4D4D4D;
+
+	--title-font: Garamond, serif;
+	--default-font: Roboto, sans-serif;
+}
+
+
 img {
 	max-width: 100%;
 }
@@ -5,6 +27,8 @@ img {
 html, body {
 	/* Para fazer o rodapé ficar sempre na parte inferior da página ;) */
 	min-height: 100vh;
+	font-family: var(--default-font);
+	font-weight: normal;
 }
 
 .limitador {
@@ -16,6 +40,52 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
+}
+
+nav{
+	background-color: var(--verde2);
+}
+
+.nav-img{
+	margin: 0px 0px 0px 20px;
+}
+
+.secao1 {
+    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 20px;
+    color: white;
+}
+
+.secao1 p {
+    font-size: larger;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.capa {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.link1 {
+    display: inline-block;
+    background-color: var(--verde5);
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 99999px;
+    text-decoration: none;
+}
+
+.link1:hover{
+    background-color: var(--verde3);
+    color: white;
 }
 
 .conteudo {
