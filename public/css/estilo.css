@@ -56,6 +56,22 @@ nav{
 	margin: 0px 0px 0px 20px;
 }
 
+.conteudo {
+	/* Para fazer o rodapé ficar sempre na parte inferior da página ;) */
+	flex: 1 1 auto;
+}
+
+.rodape {
+	text-align: center;
+	background-color: black;
+	padding: 2rem;
+}
+
+.link-rodape, .link-rodape:hover {
+	color: white;
+	text-decoration: none;
+}
+
 .secao1 {
     background-image: url('../img/pexels-chevanon-1108099.jpg');
     background-repeat: no-repeat;
@@ -275,18 +291,108 @@ h1 {
     text-align: center;
 }
 
-.conteudo {
-	/* Para fazer o rodapé ficar sempre na parte inferior da página ;) */
-	flex: 1 1 auto;
+
+.secao1-dc {
+    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 20px;
+    color: white;
+    text-align: center;
 }
 
-.rodape {
-	text-align: center;
-	background-color: black;
-	padding: 2rem;
+.secao1-dc h1{
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
 }
 
-.link-rodape, .link-rodape:hover {
-	color: white;
-	text-decoration: none;
+.secao1-dc p{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.secao2-dc{
+    background-color: var(--verde3);
+    padding: 20px 150px 30px 150px;
+    text-align: justify;
+    color: var(--bege3);
+}
+
+.secao2-dc h1{
+    color:white;
+}
+
+.subsecao-2-dc {
+    background-color: var(--verde1);
+    border-radius: 15px;
+    border-color: var(--verde5);
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.subsecao-2-dc p{
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+}
+
+.secao3-dc {
+    background-color: var(--bege2);
+}
+.carousel-control-next, .carousel-control-prev {
+    position:relative;
+}
+
+.secao4-dc {
+    background-color: var(--verde1);
+}
+
+.secao4-dc h1 {
+    color: var(--bege3);
+    text-align: center;
+    padding: 50px;
+}
+
+.secao5-dc {
+    background-color: var(--bege2);
+}
+
+.secao5-dc h1{
+    text-align: left;
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+.subsecao-5-texto-dc {
+    padding: 40px 85px 40px 120px;
+    text-align: justify;
+    color: var(--cinza1);
+}
+
+.subsecao-5-texto-dc li{
+    padding-bottom: 15px;
+}
+
+.secao6-dc {
+    background-color: var(--verde3);
+}
+
+.secao6-dc h1{
+    text-align: left;
+    color: var(--bege3);
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+.subsecao-6-texto-dc {
+    padding: 40px 85px 40px 60px;
+    text-align: justify;
+    color: var(--bege3);
+}
+
+.subsecao-6-texto-dc li{
+    padding-bottom: 15px;
 }

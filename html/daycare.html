@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>daycare</title>
+    <title>Day Care - Clube Doguês</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../public/css/estilo.css"/>
+    <link rel="shortcut icon" href="../public/img/SVG/SVG/Monograma-Verde.svg" type="image/x-icon">
 
-        <style>
+    <style>
   .carousel-img {
     width: 50%; /* metade do tamanho original */
     margin: 0 auto; /* centraliza dentro da coluna */
@@ -22,6 +24,7 @@
 </head>
 
 <body>
+  <div class="limitador">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -53,28 +56,21 @@
             </div>
         </div>
     </nav>
-    <div class="secao1">
+    <div class="secao1-dc">
         <a class="days">
-            <img scr="LOGO AQUI" alt="DESCRIÇÃO DA IMAGEM">
+            <img src="../public/img/SVG/SVG/Monograma-Cru.svg" alt="Logo" width="50px">
         </a>
         <h1>Day Care</h1>
-        <p>
-            No Clube Doguês, seu cão desfruta de um dia repleto de atividades sob a supervisão constante da nossa
-            equipe!</p>
-        <a class="imagemrodape">
-            <img scr="IMAGEM" alt=" ">
-        </a>
+        <p>No Clube Doguês, seu cão desfruta de um dia repleto de atividades sob a supervisão constante da nossa equipe!</p>
     </div>
-    <div class="secao2">
+    <div class="secao2-dc">
         <h1>Pré-Avaliação</h1>
-        <div class="conatiner1">
-            <p>Para que o pet possa frequentar o Day Care , o dono deve trazer seu cão para que possamos
-                pré-avaliar o seu comportamento e, com isso, determinar se ele estaria apto a fazer parte da
-                nossa matilha. </p>
-            <p>A avaliação consiste na interação com outros cães do Clube por aproximadamente 40 minutos</p>
+        <div class="subsecao-2-dc">
+            <p>Para que o pet possa frequentar o Day Care , o dono deve trazer seu cão para que possamos pré-avaliar o seu comportamento e, com isso, determinar se ele estaria apto a fazer parte da  nossa matilha. </p>
+            <p><i>A avaliação consiste na interação com outros cães do Clube por aproximadamente 40 minutos</i></p>
         </div>
     </div>
-    <div class="secao3">
+    <div class="secao3-dc">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -149,16 +145,15 @@
   </button>
 </div>
 
-    </div>
-    <div class="secao4">
+    <div class="secao4-dc">
         <h1> Cronograma Diário</h1>
         <img scr="CRONOGRAMA" alt="CRONOGRAMA">
         <!--Lembrando que essa imagem tem que ser alterada a depender da tela, 
         telas pequenas receberão uma versão vertical, telas grandes receberão uma versão horizontal-->
     </div>
-    <div class="secao5">
+    <div class="secao5-dc">
         <div class="row">
-            <div class="col-sm-7">
+            <div class="col-md-7 subsecao-5-texto-dc">
                 <h1>Protocolo de Entrada:</h1>
                 <ul>
                     <li>Carteira de vacinação: Raiva, polivalente V8 ou V10
@@ -172,17 +167,17 @@
                         médico veterinário.</li>
                 </ul>
             </div>
-            <div class="col-sm-5">
-                <img scr="FOTO" alt="ALT DA FOTO">
+            <div class="col-md-5">
+                <img src="../public/img/pexels-chevanon-1108099.jpg" alt="#">
             </div>
         </div>
     </div>
-    <div class="secao6">
+    <div class="secao6-dc">
         <div class="row">
             <div class="col-sm-5">
-                <img scr="FOTO" alt="ALT DA FOTO">
+                <img src="../public/img/pexels-chevanon-1108099.jpg" alt="#">
             </div>
-            <div class="col-sm-7">
+            <div class="col-sm-7 subsecao-6-texto-dc">
                 <h1>Condições para frequentar o Clube:</h1>
                 <ul>
                     <li>
@@ -200,7 +195,7 @@
 
         </div>
     </div>
-    <div class="secao6">
+    <div class="secao7-dc">
         <div class="row">
             <div class="col-sm-4">
                 <img scr="LOGO DOGUES" alt="LOGO">
