@@ -29,10 +29,11 @@ html, body {
 	min-height: 100vh;
 	font-family: var(--default-font);
 	font-weight: normal;
+    background-color: var(--bege3);
 }
 
 .limitador {
-	max-width: 1200px;
+	max-width: 1700px;
 	margin: 0px auto;
 
 	/* Para fazer o rodapé ficar sempre na parte inferior da página ;) */
@@ -40,10 +41,15 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.518);
 }
 
 nav{
 	background-color: var(--verde2);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
 }
 
 .nav-img{
@@ -86,6 +92,187 @@ nav{
 .link1:hover{
     background-color: var(--verde3);
     color: white;
+}
+
+h1 {
+    font-family: var(--title-font);
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 40px 0px;
+    color: var(--preto1);
+}
+
+.secao2{
+    background-color: var(--bege2);
+    padding: 20px;
+}
+
+.subsecao-2-texto {
+    padding: 20px 45px 20px 100px;
+    text-align: justify;
+    color: var(--cinza1);
+}
+
+
+.subsecao-2-img {
+    padding: 20px 90px 20px 45px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+}
+
+.secao3{
+    background-color: var(--verde3);
+    padding: 50px 80px;
+}
+
+.nossos-servicos {
+    text-align: center;
+    color: var(--bege3);
+}
+
+.subsecao-3-card {
+    padding: 0px 30px 30px 30px;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+.card-img-top{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--title-font);
+}
+
+.card-text {
+    text-align: center;
+    padding: 5px;
+}
+
+.secao4{
+    background-color: var(--verde1);
+    padding: 50px 80px;
+}
+
+.secao4 h1 {
+    color: var(--verde5);
+    padding: 0px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.titulo4 {
+    color: var(--verde5);
+    text-align: center;
+    max-width: 70%;
+    margin: 0px auto;
+    padding: 20px 0px 60px 0px;
+} 
+
+.sede{
+    background-color: var(--bege3);
+    border-radius: 15px;
+}
+
+.sede img{
+    border-top-right-radius: 15px;
+}
+
+.ratio-16x9 {
+    --bs-aspect-ratio: 300px;
+}
+
+.mapa{
+    height: 300px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.subsecao-sede-4-texto h2{
+    font-family: var(--title-font);
+    font-weight: bolder;
+    font-size: 40px;
+    color: var(--preto1);
+    padding: 10px 0px 10px 20px;
+    text-align: left;
+}
+
+.subsecao-sede-4-texto {
+    padding: 40px;
+    text-align: justify;
+    color: var(--cinza1);
+}
+
+.subsecao-sede-4-texto li{
+    padding: 10px;
+}
+
+.malzoni{
+    background-color: var(--bege3);
+    border-radius: 15px;
+    margin: 30px 0px 30px 0px;
+}
+
+.malzoni img{
+    border-top-left-radius: 15px;
+    text-align: center;
+    max-width: 70%;
+    
+}
+
+.subsecao-malzoni-4-texto h2{
+    font-family: var(--title-font);
+    font-weight: bolder;
+    font-size: 40px;
+    color: var(--preto1);
+    padding: 10px 0px 10px 0px;
+    text-align: left;
+}
+
+.subsecao-malzoni-4-texto {
+    padding: 40px;
+    text-align: justify;
+    color: var(--cinza1);
+}
+
+.subsecao-malzoni-4-texto p{
+    padding: 5px;
+}
+
+.img-pet-stop {
+    height: 300px;
+    background-image: url(../img/pexels-chevanon-1108099.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 100%;
+}
+
+.secao5{
+    background-color: var(--verde3);
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.secao > iframe{
+    width: 800px; height: 450px;
+}
+
+.secao6{
+    background-color: var(--bege2);
+}
+
+.secao6 h1 {
+    color: var(--verde1);
+    text-align: center;
 }
 
 .conteudo {

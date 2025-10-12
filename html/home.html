@@ -17,11 +17,12 @@
 </head>
 
 <body>
+    <div class="limitador">
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
                 <div class="nav-img">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#capa">
                     <img src="../public/img/SVG/SVG/Monograma-Branco.svg" alt="Logo" width="30px">
                 </a>
                 </div>
@@ -30,15 +31,25 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mb-2 mb-lg-0" style="margin: 0 0 0 auto;">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Quem Somos</a>
+                            <a class="nav-link active" aria-current="page" href="#quem-somos">Quem Somos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Serviços</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Serviços</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Day Care</a></li>
+                                <li><a class="dropdown-item" href="#">Hotel</a></li>
+                                <li><a class="dropdown-item" href="#">Adestramento</a></li>
+                                <li><a class="dropdown-item" href="#">Banho & Tosa</a></li>
+                                <li><a class="dropdown-item" href="#">Clínica</a></li>
+                                <li><a class="dropdown-item" href="#">Táxi Dog</a></li>                    
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Espaços</a>
@@ -52,7 +63,7 @@
         </nav>
 
         <div class="secao1">
-            <div class = "capa">
+            <div class = "capa" id="capa">
                 <img src="../public/img/SVG/SVG/Logo-Principal-Branco.svg" alt="logo clube dogues">
                 <p> Seu pet em casa, longe de casa </p>
                 <a class="link1" href="https://google.com">
@@ -65,105 +76,101 @@
     <main>
         <div class="container-fluid secao2">
             <div class="row">
-                <div class="col-sm-7 subsecao-2-texto">
+                <div class="col-lg-6 subsecao-2-texto" id="quem-somos">
                     <h1>Quem Somos</h1>
-                    <p>O Clube Doguês é um centro de bem-estar para o seu cão se sentir em casa fora de casa.</p>
-                    <p>Nossa história começa em 2017, com uma vontade de desenvolver um processo de treinamento canino
-                        acolhedor, que olhasse para todas as facetas de cada cão de forma individualizada.</p>
-                    <p>Essa vontade tornou-se uma missão: poder expandir essa abordagem para mais pets. E daí surgiu nosso
-                        propósito: o bem-estar do cão e a confiança dos donos em primeiro lugar.</p>
-                    <p>Clube, porque aqui a prioridade não é o frufru, o que conta é ser cão de verdade: brincar, aprender,
-                        explorar, socializar, relaxar... e pertencer a uma matilha.</p>
-                    <p>Doguês, porque aqui fazemos de tudo para falar a língua deles. Doguês é a língua do seu cão, simples
-                        assim!</p>
+                    <p> <b>O Clube Doguês é um centro de bem-estar para o seu cão se sentir em casa fora de casa.</b></p>
+                    <p>Nossa história começa em 2017, com uma vontade de desenvolver um processo de treinamento canino acolhedor, que olhasse para todas as facetas de cada cão de forma individualizada.</p>
+                    <p>Essa vontade tornou-se uma missão: poder expandir essa abordagem para mais pets. E daí surgiu nosso propósito: o bem-estar do cão e a confiança dos donos em primeiro lugar.</p>
+                    <p>&check;<b>Clube</b>, porque aqui a prioridade não é o frufru, o que conta é ser cão de verdade: brincar, aprender, explorar, socializar, relaxar... e pertencer a uma matilha.</p>
+                    <p>&check;<b>Doguês</b>, porque aqui fazemos de tudo para falar a língua deles. Doguês é a língua do seu cão, simples assim!</p>
                 </div>
 
-                <div class="col-sm-5 subsecao-2-img">
-                    <img width="100%" src="placeholder.png" alt="fundadora Milena Gerbelli"/>
+                <div class="col-lg-6 subsecao-2-img">
+                    <img width="60%" src="../public/img/home/milena-final.png" alt="fundadora Milena Gerbelli"/>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid secao3">
             <div class="row">
-                <h1 class="nossos-servicos"> Nosso Serviços </h1>
+                <h1 class="nossos-servicos"> Nossos Serviços </h1>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center subsecao-3-card">
                 <!-- Card 1 -->
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <a href="daycare.html" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="placeholder.png" class="card-img-top" alt="Day Care">
                             <div class="card-body">
                                 <h5 class="card-title">Day Care</h5>
-                                <p class="card-text">Atividades que desenvolvem habilidades e garantem saúde.</p>
+                                <p class="card-text">Ofereça ao seu cão atividades que desenvolvem suas habilidades e garantem mais saúde e bem-estar.</p>
                             </div>
                         </div>
                     </a>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <a href="hotel.html" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="placeholder.png" class="card-img-top" alt="hotel">
                             <div class="card-body">
                                 <h5 class="card-title">Hotel</h5>
-                                <p class="card-text">Seu pet cheirosinho e estiloso no Clube Doguês!</p>
+                                <p class="card-text">Vai viajar? No Hotel do Clube Doguês seu pet socializa, aprende regras e se diverte em matilha.</p>
                             </div>
                         </div>
                     </a>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <a href="adestramento.html" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="placeholder.png" class="card-img-top" alt="adestramento">
                             <div class="card-body">
-                                <h5 class="card-title">adestramento</h5>
-                                <p class="card-text">Veterinária, fisioterapia e acupuntura com profissionais.</p>
+                                <h5 class="card-title">Adestramento</h5>
+                                <p class="card-text">Você e seu cão falando a mesma língua!</p>
                             </div>
                         </div>
                     </a>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row subsecao-3-card">
                 <!-- Card 4 -->
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <a href="banhotosa.html" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="placeholder.png" class="card-img-top" alt="banho e tosa">
                             <div class="card-body">
-                                <h5 class="card-title">banho e tosa</h5>
-                                <p class="card-text">Atividades que desenvolvem habilidades e garantem saúde.</p>
+                                <h5 class="card-title">Banho & Tosa</h5>
+                                <p class="card-text">Seu pet pode ficar cheirosinho e estiloso no Clube Doguês!</p>
                             </div>
                         </div>
                     </a>
                 </div>
 
                 <!-- Card 5 -->
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <a href="clinica.html" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="placeholder.png" class="card-img-top" alt="clinica">
                             <div class="card-body">
-                                <h5 class="card-title">clinica</h5>
-                                <p class="card-text">Seu pet cheirosinho e estiloso no Clube Doguês!</p>
+                                <h5 class="card-title">Clínica</h5>
+                                <p class="card-text">Veterinária, fisioterapia e acupuntura com profissionais especializados.</p>
                             </div>
                         </div>
                     </a>
                 </div>
 
                 <!-- Card 6 -->
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <a href="taxidog.html" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <img src="placeholder.png" class="card-img-top" alt="taxidog">
                             <div class="card-body">
-                                <h5 class="card-title">taxidog</h5>
-                                <p class="card-text">Veterinária, fisioterapia e acupuntura com profissionais.</p>
+                                <h5 class="card-title">Táxi Dog</h5>
+                                <p class="card-text">Transporte seguro e confortável para levar seu pet onde precisar.</p>
                             </div>
                         </div>
                     </a>
@@ -173,35 +180,37 @@
         </div>
 
     <div class="secao4">
+        
         <h1>Nosso Espaço</h1>
-        <p> Todas as instalações do Clube Doguês são pensadas para cumprir as necessidades do seu cão, estimulando o
+        <div class="titulo4">
+        <p class="subtitulo-4"> Todas as instalações do Clube Doguês são pensadas para cumprir as necessidades do seu cão, estimulando o
             exercício e a socialização</p>
+        </div>
+        <div class="sede">
         <div class="row">
-            <div class="col-sm-7">
-                <h1> Sede - Vila Nova Conceição</h1>
+            <div class="col-md-7 subsecao-sede-4-texto">
+                <h2> Sede - Vila Nova Conceição</h2>
                 <ul>
-                    <li>1° andar: Recepção Espaço ao ar livre para brincadeiras Espaços para cães grandes
-                        Consultório veterinário Espaço de banho & tosa Espaço reservado para guardar
-                        pertences dos cães Cozinha Espelho d água para brincadeiras no verão</li>
-                    <li>2° andar: Espaços para cães pequenos Espaço ao ar livre para brincadeiras Quarto
-                        para guardar pertences dos cães Quarto de monitores Espelho d água para
-                        brincadeiras no verão</li>
+                    <li>1° andar: Recepção Espaço ao ar livre para brincadeiras Espaços para cães grandes Consultório veterinário Espaço de banho & tosa Espaço reservado para guardar pertences dos cães Cozinha Espelho d água para brincadeiras no verão</li>
+                    <li>2° andar: Espaços para cães pequenos Espaço ao ar livre para brincadeiras Quartopara guardar pertences dos cães Quarto de monitores Espelho d água para brincadeiras no verão</li>
                 </ul>
             </div>
-            <div class="col-sm-5">
+            <div class="col-md-5">
                 <img width="100%" src="placeholder.png" />
             </div>
         </div>
         <div class="ratio ratio-16x9">
-            <iframe
+            <iframe class="mapa"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.752372146751!2d-46.677987885019456!3d-23.57912756868356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59d3f7ab0c7f%3A0x123456789abcdef!2sAv.%20Ant%C3%B4nio%20Joaquim%20de%20Moura%20Andrade%2C%20380!5e0!3m2!1spt-BR!2sbr!4v1631031234567!5m2!1spt-BR!2sbr"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                 style="border:0;" allowfullscreen="" loading="lazy">
             </iframe>
         </div>
+        </div>
+        <div class="malzoni">
         <div class="row">
 
-            <div class="col-sm-3">
-                <div class="card">
+            <!-- <div class="col-sm-3">
+                <div class="card pet-stop">
                     <img src="placeholder.png" class="card-img-top" alt="taxidog">
                     Você deixa o cão no nosso Pet Stop, a partir das 8h</div>
                     <div class="card">
@@ -216,26 +225,29 @@
                     <div class="card">
                     <img src="placeholder.png" class="card-img-top" alt="taxidog">
                     Você deixa o cão no nosso Pet Stop, a partir das 8h</div>
+            </div> -->
+            <div class="col-md-6">
+                <img src="placeholder.png" alt="">
             </div>
-
-            <div class="col-sm-6">
-                <h3>PetStop - Pátio Malzoni</h3>
-                <p>Estamos presentes no Edifício Victor Malzoni com nosso serviço de Pet Stop, oferecido exclusivamente
-                    para pessoas que trabalham no prédio.</p>
+            <div class="col-md-6 subsecao-malzoni-4-texto">
+                <h2>PetStop - Pátio Malzoni</h2>
+                <p>Estamos presentes no Edifício Victor Malzoni com nosso serviço de Pet Stop, oferecido exclusivamente para pessoas que trabalham no prédio.</p>
                 <p>No Pet Stop, você deixa o seu cão conosco e ele virá para nossa sede com o auxílio do nosso Táxi Dog.
                 </p>
             </div>
 
         </div>
-        <a class="doguin">
-            <img scr="placeholder.png" alt="AAAAA">
-        </a>
+        <div class="img-pet-stop">
+        </div>
+        <!-- <a class="img-pet-stop">
+            <img src="placeholder.png" alt="">
+        </a> -->
+        </div>
     </div>
 
     <div class="secao5">
-        <video width="720" height="400" controls>
-            <source scr="LINK DO VIDEO" type="video/mp4" />
-        </video>
+        <iframe src="https://www.youtube.com/embed/l2UDgpLz20M?si=mfnUFeKsT4lACmO8" title="YouTube video" allowfullscreen></iframe>
+</div>
     </div>
 
     <div class="secao6">
@@ -244,7 +256,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
+                        <div class="row">
                             <div class="col-md-4">
                             <img src="placeholder.png" class="img-fluid rounded-start" alt="...">
                             </div>
@@ -330,7 +342,7 @@
         </div>
     </div>
     </div>
-
+</div>
 </body>
 
 </html>
