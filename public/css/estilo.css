@@ -33,7 +33,7 @@ html, body {
 }
 
 .limitador {
-	max-width: 1500px;
+	max-width: 1300px;
 	margin: 0px auto;
 
 	/* Para fazer o rodapé ficar sempre na parte inferior da página ;) */
@@ -631,4 +631,230 @@ h1 {
 
 .subsecao-4-texto-ad p{
     padding-bottom: 15px;
+}
+
+.secao1-bt {
+    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.secao1-bt h1{
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+}
+
+.secao1-bt p{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.secao2-bt {
+    background-color: var(--bege2);
+    color: var(--cinza1);
+    text-align: justify;
+    padding: 80px 50px;
+}
+
+.desc2-bt{
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 2;
+}
+
+.secao4-bt {
+    background-color: var(--bege2);
+}
+
+.secao4-bt h1{
+    text-align: left;
+    color: var(--cinza1);
+    font-size: 50px;
+}
+
+.subsecao-4-texto-bt {
+    padding: 40px 85px 40px 60px;
+    text-align: justify;
+    color: var(--cinza1);
+}
+
+.subsecao-4-texto-bt li{
+    padding-bottom: 15px;
+}
+
+.secao1-cl {
+    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.secao1-cl h1{
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+}
+
+.secao1-cl p{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.secao2-cl {
+    background-color: var(--verde3);
+}
+
+.secao2-cl h1{
+    text-align: left;
+    font-size: 50px;
+    color: var(--bege3);
+}
+
+.subsecao-2-texto-cl {
+    padding: 40px 85px 40px 70px;
+    text-align: justify;
+    color: var(--bege3);
+}
+
+.subsecao-2-texto-cl p{
+    padding-bottom: 15px;
+}
+
+.subsecao-2-texto-cl i{
+    font-size: 0.95rem;
+}
+
+.desc2-cl {
+    padding: 40px 85px 40px 70px;
+    text-align: justify;
+    color: var(--bege3);
+    font-size: 1.5rem;
+    display: grid;
+    align-items: center;
+}
+
+.secao3-cl {
+    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-size: cover;
+    height: 200px;
+}
+
+.secao4-cl {
+    background-color: var(--bege2);
+    color: var(--cinza1);
+    text-align: justify;
+    padding: 80px 0px 80px 50px;
+}
+
+.desc4-cl{
+    line-height: 2;
+}
+
+.secao1-td {
+    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.secao1-td h1{
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+}
+
+.secao1-td p{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.secao2-td {
+    background-color: var(--bege2);
+    color: var(--cinza1);
+    text-align: justify;
+    padding: 80px 0px 80px 50px;
+}
+
+.desc2-td{
+    line-height: 2;
+    padding: 30px;
+}
+
+.secao3-td {
+    background-color: var(--verde3);
+}
+
+.secao3-td h1{
+    text-align: left;
+    color: var(--bege3);
+    font-size: 50px;
+}
+
+.subsecao-3-texto-td {
+    padding: 40px 85px 40px 60px;
+    text-align: justify;
+    color: var(--bege3);
+}
+
+.subsecao-3-texto-td p{
+    padding-bottom: 15px;
+}
+
+footer {
+      background-color: #063d2b;
+      color: #fff;
+      padding: 3rem 1rem;
+      font-family: var(--default-font);
+      margin: auto;
+    }
+h6 {
+    font-family: var(--title-font);
+}
+
+.footer-logo {
+    font-family: var(--default-font);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.footer-logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.footer-section h6 {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.footer-section p {
+    margin: 0;
+    color: #f1f1f1;
+}
+
+.footer-logo-container {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer-logo-container {
+    text-align: left;
+    }
 }
