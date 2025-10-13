@@ -21,6 +21,20 @@ router.get("/sobre", wrap(async (req, res) => {
 	res.render("index/sobre", opcoes);
 }));
 
+router.get("/daycare", wrap(async (req, res) => {
+	let opcoes = {
+		titulo: "Daycare"
+	};
+	res.render("index/daycare", opcoes);
+}));
+
+router.get("/hotel", wrap(async (req, res) => {
+	let opcoes = {
+		titulo: "Hotel"
+	};
+	res.render("index/hotel", opcoes);
+}));
+
 router.get("/adestramento", wrap(async (req, res) => {
 	let opcoes = {
 		titulo: "Adestramento"
@@ -42,20 +56,13 @@ router.get("/clinica", wrap(async (req, res) => {
 	res.render("index/clinica", opcoes);
 }));
 
-router.get("/daycare", wrap(async (req, res) => {
+router.get("/taxidog", wrap(async(req, res) => {
 	let opcoes = {
-		titulo: "Daycare"
+		titulo: "Táxi Dog"
 	};
-	res.render("index/daycare", opcoes);
-}));
-
-router.get("/hotel", wrap(async (req, res) => {
-	let opcoes = {
-		titulo: "Hotel"
-	};
-	res.render("index/hotel", opcoes);
-}));
-
+	
+	res.render("index/taxidog", opcoes)
+}))
 
 router.get("/produtos", wrap(async (req, res) => {
 	let produtoA = {
@@ -86,20 +93,5 @@ router.get("/produtos", wrap(async (req, res) => {
 	res.render("index/produtos", opcoes);
 }));
 
-router.get("/sobre", wrap(async (req, res) => {
-	let opcoes = {
-		titulo: "Sobre Nós"
-	};
-
-	res.render("index/sobre", opcoes);
-}));
-
-router.get("/taxidog", wrap(async(req, res) => {
-	let opcoes = {
-		titulo: "Táxi Dog"
-	};
-	
-	res.render("index/taxidog", opcoes)
-}))
 
 module.exports = router;

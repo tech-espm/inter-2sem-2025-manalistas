@@ -4,57 +4,47 @@
 	https://getbootstrap.com/docs/5.3/components/navbar/
 -->
 
-<nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <div class="nav-img">
-                <a class="navbar-brand" href="#">
-                    <img src="../public/img/SVG/SVG/Monograma-Branco.svg" alt="Logo" width="30px">
-                </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/sobre">Quem Somos</a>
-                        </li>
-
-                        <!--
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Espaços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contato</a>
-                        </li>
-                        -->
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/adestramento">Adestramento</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/banhotosa">Banho e Tosa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/daycare">Daycare</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/hotel">Hotel</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/produtos">Produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/taxidog">TaxiDog</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+        <div class="nav-img">
+        <a class="navbar-brand" href="/home">
+            <img src="../public/img/SVG/SVG/Monograma-Branco.svg" alt="Logo" width="30px">
+        </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon navbar-toggler-icon-claro"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mb-2 mb-md-0" style="margin: 0 0 0 auto;">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/home">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/sobre">Quem Somos</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Serviços
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Serviços</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="/daycare">Day Care</a></li>
+                <li><a class="dropdown-item" href="/hotel">Hotel</a></li>
+                <li><a class="dropdown-item" href="/adestramento">Adestramento</a></li>
+                <li><a class="dropdown-item" href="/banhotosa">Banho & Tosa</a></li>
+                <li><a class="dropdown-item" href="/clinica">Clínica</a></li>
+                <li><a class="dropdown-item" href="/taxidog">Táxi Dog</a></li>                    
+            </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/produtos">Produtos</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Fale Conosco</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>

@@ -33,7 +33,7 @@ html, body {
 }
 
 .limitador {
-	max-width: 1700px;
+	max-width: 1500px;
 	margin: 0px auto;
 
 	/* Para fazer o rodapé ficar sempre na parte inferior da página ;) */
@@ -46,10 +46,16 @@ html, body {
 
 nav{
 	background-color: var(--verde2);
+    color: white;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+.navbar-nav .nav-link, .navbar-nav .nav-link.show .nav-item.dropdown .navbar-toggler {
     color: white;
+}
+
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
 }
 
 .nav-img{
@@ -279,7 +285,8 @@ h1 {
 }
 
 .secao > iframe{
-    width: 800px; height: 450px;
+    width: 100%;
+    aspect-ratio: 16 /9;
 }
 
 .secao6{
@@ -298,7 +305,7 @@ h1 {
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
-    padding: 150px 20px;
+    padding: 100px 20px;
     color: white;
     text-align: center;
 }
@@ -394,5 +401,69 @@ h1 {
 }
 
 .subsecao-6-texto-dc li{
+    padding-bottom: 15px;
+}
+
+.secao1-ht {
+    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.secao1-ht h1{
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+}
+
+.secao1-ht p{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.secao3-dc {
+    background-color: var(--verde3);
+}
+
+.secao3-ht h1{
+    text-align: left;
+    color: var(--bege3);
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+.subsecao-3-texto-ht {
+    padding: 40px 85px 40px 60px;
+    text-align: justify;
+    color: var(--bege3);
+}
+
+.subsecao-3-texto-ht li{
+    padding-bottom: 15px;
+}
+
+.secao4-ht {
+    background-color: var(--bege2);
+}
+
+.secao4-ht h1{
+    text-align: left;
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+.subsecao-4-texto-ht {
+    padding: 40px 85px 40px 120px;
+    text-align: justify;
+    color: var(--cinza1);
+}
+
+.subsecao-4-texto-ht p{
     padding-bottom: 15px;
 }
