@@ -44,6 +44,11 @@ html, body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.518);
 }
 
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
 nav{
 	background-color: var(--verde2);
     color: white;
@@ -427,6 +432,54 @@ h1 {
     margin: 0px auto;
 }
 
+
+.secao2-ht {
+    background-color: var(--bege2);
+    max-width: fit-content;
+    padding-bottom: 5%;
+}
+
+.secao2-ht h1 {
+    color: var(--verde1);
+    font-weight: bold;
+    padding: 70px 40px 40px 20px;
+}
+
+.descricao2-ht {
+    color: var(--verde1);
+    margin-bottom: 2rem;
+    padding: 0px 40px 40px 10px;
+}
+
+.card2-ht {
+    background-color: #063d2b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.card2-ht:hover {
+    transform: translateY(-5px);
+}
+
+.card-title2-ht {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.card-text2-ht {
+    font-size: 0.95rem;
+    color: #f1f1f1;
+}
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
 .secao3-ht {
     background-color: var(--verde3);
 }
@@ -502,4 +555,80 @@ h1 {
     border-width: 2px;
     padding: 80px;
     border-style: double;
+}
+
+.secao1-ad {
+    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.secao1-ad h1{
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+}
+
+.secao1-ad p{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.secao2-ad {
+    background-color: var(--verde1);
+    color: var(--bege3);
+    text-align: justify;
+    padding: 80px 50px;
+}
+
+.desc2-ad{
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 2;
+}
+
+.secao3-ad {
+    background-color: var(--verde3);
+}
+
+.secao3-ad h1{
+    text-align: left;
+    color: var(--bege3);
+    font-size: 50px;
+}
+
+.subsecao-3-texto-ad {
+    padding: 40px 85px 40px 60px;
+    text-align: justify;
+    color: var(--bege3);
+}
+
+.subsecao-3-texto-ad p{
+    padding-bottom: 15px;
+}
+
+.secao4-ad {
+    background-color: var(--verde1);
+}
+
+.secao4-ad h1{
+    text-align: left;
+    font-size: 50px;
+    color: var(--bege3);
+}
+
+.subsecao-4-texto-ad {
+    padding: 40px 85px 40px 70px;
+    text-align: justify;
+    color: var(--bege3);
+}
+
+.subsecao-4-texto-ad p{
+    padding-bottom: 15px;
 }
