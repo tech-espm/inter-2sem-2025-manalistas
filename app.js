@@ -21,6 +21,9 @@ const express = require("express");
 const path = require("path");
 const wrap = require("express-async-error-wrapper");
 const cookieParser = require("cookie-parser"); // https://stackoverflow.com/a/16209531/3569421
+const sql = require("./data/sql");
+
+require("dotenv").config({ encoding: "utf8" });
 
 // Configura o cache, para armazenar as 200 últimas páginas
 // já processadas, por ordem de uso
@@ -118,6 +121,17 @@ app.use((err, req, res, next) => {
 	res.status(err.status || 500);
 
 	res.render("erro", { mensagem: err.message });
+});
+
+sql.init({
+	connectionLimit: parseInt(process.env.sql_connectionLimit),
+	waitForConnections: !!parseInt(process.env.sql_waitForConnections),
+	charset: process.env.sql_charset,
+	host: process.env.sql_host,
+	port: parseInt(process.env.sql_port),
+	user: process.env.sql_user,
+	password: process.env.sql_password,
+	database: process.env.sql_database
 });
 
 const ip = process.env.IP || "127.0.0.1";

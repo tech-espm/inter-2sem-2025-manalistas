@@ -1,5 +1,6 @@
 const express = require("express");
 const wrap = require("express-async-error-wrapper");
+const sql = require("../data/sql");
 
 const router = express.Router();
 
@@ -65,6 +66,12 @@ router.get("/taxidog", wrap(async(req, res) => {
 }))
 
 router.get("/produtos", wrap(async (req, res) => {
+	let produtos;
+
+	await sql.connect(async (sql) => {
+		produtos = await sql.query("select id, nome from produto where idempresa = ? and idcliente = ?", [4, 6]);
+	});
+
 	let produtoA = {
 		id: 1,
 		nome: "Produto A",
