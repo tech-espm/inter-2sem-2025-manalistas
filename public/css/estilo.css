@@ -33,7 +33,7 @@ html, body {
 }
 
 .limitador {
-	max-width: 1300px;
+	max-width: 1800px;
 	margin: 0px auto;
 
 	/* Para fazer o rodapé ficar sempre na parte inferior da página ;) */
@@ -84,9 +84,9 @@ nav{
 }
 
 .secao1 {
-    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-image: url('../img/home/cacau.png');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 150px 20px;
@@ -305,9 +305,9 @@ h1 {
 
 
 .secao1-dc {
-    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-image: url('../img/fotos-oficiais/dc.png');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 100px 20px;
@@ -746,7 +746,7 @@ h1 {
 }
 
 .secao3-cl {
-    background-image: url('../img/pexels-chevanon-1108099.jpg');
+    background-image: url('../img/fotos-oficiais/fisio_editada-copia.jpg');
     background-size: cover;
     height: 200px;
 }
@@ -762,10 +762,33 @@ h1 {
     line-height: 2;
 }
 
-.secao1-td {
-    background-image: url('../img/pexels-chevanon-1108099.jpg');
+.secao5-cl {
+    background-image: url('../img/fotos-oficiais/fisio_editada-copia.jpg');
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.secao5-cl h1{
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+}
+
+.secao5-cl p{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.secao1-td {
+    background-image: url('../img/fotos-oficiais/taxi.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
     background-size: cover;
     background-attachment: fixed;
     padding: 100px 20px;
