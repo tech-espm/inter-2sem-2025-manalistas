@@ -57,6 +57,13 @@ router.get("/clinica", wrap(async (req, res) => {
 	res.render("index/clinica", opcoes);
 }));
 
+router.get("/loginMembros", wrap(async (req, res) => {
+	let opcoes = {
+		titulo: "Login Membros"
+	};
+	res.render("index/loginMembros", opcoes);
+}));
+
 router.get("/taxidog", wrap(async(req, res) => {
 	let opcoes = {
 		titulo: "Táxi Dog"
@@ -68,9 +75,9 @@ router.get("/taxidog", wrap(async(req, res) => {
 router.get("/produtos", wrap(async (req, res) => {
 	let produtos;
 
-	await sql.connect(async (sql) => {
-		produtos = await sql.query("select id, nome from produto where idempresa = ? and idcliente = ?", [4, 6]);
-	});
+	// await sql.connect(async (sql) => {
+	// 	produtos = await sql.query("select id, nome from produto where idempresa = ? and idcliente = ?", [4, 6]);
+	// });
 
 	let produtoA = {
 		id: 1,

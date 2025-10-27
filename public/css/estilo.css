@@ -93,6 +93,27 @@ nav{
     color: white;
 }
 
+.secao1-login{
+    background-image: url('/public/img/SVG/SVG/FundoMembros.svg'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 20px;
+    color: lightgrey;
+}
+
+.container1-login {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.42);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
 .secao1 p {
     font-size: larger;
     padding: 10px;
