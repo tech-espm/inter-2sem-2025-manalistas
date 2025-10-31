@@ -94,25 +94,46 @@ nav{
 }
 
 .secao1-login{
+    background-color: var(--bege2);
     background-image: url('/public/img/SVG/SVG/FundoMembros.svg'); 
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 200px 20px;
-    color: lightgrey;
+    padding: 100px 20px;
 }
 
 .container1-login {
     max-width: 400px;
     text-align: center;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.42);
-    padding: 20px;
+    background-color: #033228;
+    padding: 7px 20px; 
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(3, 50, 40, 0.3);
 }
 
+.h1-login{
+    font-family: var(--title-font);
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 40px 0px 10px 0px;
+    color: var(--bege3)
+}
+
+
+
+.logo-login{
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.logo-login img{
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+}
 
 .secao1 p {
     font-size: larger;
@@ -147,7 +168,8 @@ h1 {
     font-size: 60px;
     font-weight: bolder;
     padding: 40px 0px;
-    color: var(--preto1);
+    color: var(--bege1)
+
 }
 
 .secao2{
