@@ -1,0 +1,74 @@
+[
+  { 
+    "id": "evelyn", 
+    "nome": "Evelyn", 
+    "img": "lyn.png", 
+    "frase":"pela benção do oficial celestial", 
+    "descricao": "Dev a ponto de surtaaaaar", 
+    "linkedin": "https://linkedin.com/in/lyn",
+    "github": "https://linkedin.com/in/betina" 
+    },
+
+  { 
+    "id": "betina", 
+    "nome": "Betina", 
+    "img": "bets.png", 
+    "frase":"A filha da dona", 
+    "descricao": [
+      "Amo viver experiências diferentes e aprender novos assuntos! ",
+      "Tenho uma curiosidade constante e, nos últimos tempos, a tecnologia tem despertado cada vez mais o meu interesse — e, por isso, estou em um processo contínuo de aprofundamento, descobrindo conceitos, ferramentas e oportunidades que esse universo oferece. ",
+      "Gosto de me desafiar, expandir minha visão de mundo e crescer tanto pessoal quanto profissionalmente."
+    ], 
+    "linkedin": "https://linkedin.com/in/betina",
+    "github": "https://linkedin.com/in/betina"
+    },
+
+  { 
+    "id": "madu", 
+    "nome": "Madu", 
+    "img": "madu.png", 
+    "frase":"pela benção do oficial celestial",
+    "descricao": "teste", 
+    "linkedin": "https://linkedin.com/in/madu",
+    "github": "https://linkedin.com/in/betina"
+    },
+
+  {
+    "id": "ihago",
+    "nome": "Ihago",
+    "img": "ihago.png",
+    "frase": "Gerir com inteligência, criar com propósito e viver com liberdade.",
+    "descricao": [
+      "Sou um entusiasta da tecnologia e da inovação, com foco em transformar dados em insights estratégicos. ",
+      "Atualmente curso Ciência de Dados, área que une análise, lógica e criatividade para resolver problemas e gerar valor através da informação. ",
+      "Tenho experiência em desenvolvimento de software e gestão de projetos, aplicando metodologias ágeis e pensamento analítico para criar soluções digitais eficientes e impactantes. ",
+      "Acredito que tecnologia é uma ferramenta poderosa para construir um futuro mais inteligente e conectado."
+    ],
+    "linkedin": "https://linkedin.com/in/ihago",
+    "github": "https://linkedin.com/in/betina"
+  },
+
+  { 
+    "id": "ihan", 
+    "nome": "Ihan", 
+    "img": "ihan.png", 
+    "frase":"Todos usam mascaras, eu me desfiz das minhas, por isso eles me renegam",
+    "descricao": [
+      "Apaixonado por tecnologia desde pequeno, sempre fui movido pela curiosidade. ",
+      "Antes mesmo de entender o que era programação, já explorava códigos, e me divertia modificando páginas com ferramentas do navegador. ",
+      "Esse interesse só cresceu com o tempo e guiou a minha caminhada profissional e acadêmica."
+    ], 
+    "linkedin": "https://linkedin.com/in/ihan",
+    "github": "https://linkedin.com/in/betina"
+    },
+
+  { 
+    "id": "rods", 
+    "nome": "Rodrigo", 
+    "img": "rodrigo.png", 
+    "frase":"pela benção do oficial celestial",
+    "descricao": "teste", 
+    "linkedin": "https://linkedin.com/in/rodrigo",
+    "github": "https://linkedin.com/in/betina"
+    }
+]

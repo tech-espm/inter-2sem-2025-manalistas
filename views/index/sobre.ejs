@@ -2,7 +2,6 @@
 	<div class="container-fluid secao1-sn">
 		<div class = "capa" id="capa">
 			<h1> Sobre Nós</h1>
-			</a>
 		</div>
 	</div>
 	<div class="container-fluid secao2-sn">
@@ -12,19 +11,19 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="mb-4">
-					<img src="../public/img/perfis/lyn.png" class="profile" alt="logo clube dogues">
+					<img id="evelyn" src="../public/img/perfis/lyn.png" class="profile" alt="logo clube dogues" onclick="abrirPerfil(this.id)">
 					<p> Evelyn </p>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="mb-4">
-					<img src="../public/img/perfis/bets.png" class="profile" alt="logo clube dogues">
+					<img id="betina" src="../public/img/perfis/bets.png" class="profile" alt="logo clube dogues" onclick="abrirPerfil(this.id)">
 					<p> Betina </p>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="mb-4">
-					<img src="../public/img/perfis/madu.png" class="profile" alt="logo clube dogues">
+					<img id="madu" src="../public/img/perfis/madu.png" class="profile" alt="logo clube dogues" onclick="abrirPerfil(this.id)">
 					<p> Madu </p>
 				</div>
 			</div>
@@ -37,22 +36,57 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="mb-2">
-					<img src="../public/img/perfis/ihago.png" class="profile" alt="logo clube dogues">
+					<img id="ihago" src="../public/img/perfis/ihago.png" class="profile" alt="logo clube dogues" onclick="abrirPerfil(this.id)">
 					<p> Ihago </p>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="mb-2">
-					<img src="../public/img/perfis/ihan.png" class="profile" alt="logo clube dogues">
+					<img id="ihan" src="../public/img/perfis/ihan.png" class="profile" alt="logo clube dogues" onclick="abrirPerfil(this.id)">
 					<p> Ihan </p>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="mb-2">
-					<img src="../public/img/perfis/rodrigo.png" class="profile" alt="logo clube dogues">
+					<img id="rods" src="../public/img/perfis/rodrigo.png" class="profile" alt="logo clube dogues" onclick="abrirPerfil(this.id)">
 					<p> Rodrigo </p>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+
+
+	<div id="perfil-card" class="perfil-card" style="display:none;">
+      <div class="perfil-conteudo">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="mb-4">
+              <img id="card-img" src="" class="profile" alt="">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="mb-8">
+              <h2 id="card-nome"></h2>
+			  <h3 id="card-frase"></h3>
+              <p id="card-descricao"></p>
+			  <div class="row">
+				<div class="col-md-6">
+					<div class="mb-6">
+						<a id="card-linkedin" href="#" class="btn-linkedin" target="_blank">Ver no LinkedIn</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="mb-6">
+						<a id="card-github" href="#" class="btn-linkedin" target="_blank">Ver no Github</a>
+					</div>
+				</div>
+			  </div>
+			  <button class="fechar-card" onclick="fecharPerfil()">&times;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+<script src="public\js\perfilCard.js"></script>

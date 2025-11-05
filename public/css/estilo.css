@@ -953,7 +953,7 @@ h6 {
   text-align: center;
 }
 
-.secao2-sn .profile {
+.profile {
   display: block;
   width: 300px;
   height: 300px;
@@ -986,4 +986,75 @@ h6 {
   border: 4px dotted var(--verde3);
   box-shadow: 10px 5px 5px var(--verde3);
   box-sizing: border-box;
+}
+
+.perfil-card {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--bege3);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+    
+}
+
+.perfil-conteudo {
+  background-color: #033228;
+  border-radius: 16px;
+  padding: 24px 30px;
+  width: 1000px;
+  height: 400px;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: right;
+  animation: surgir 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes surgir {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.fechar-card {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: var(--bege3);
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.fechar-card:hover {
+  color: #f5d9a6;
+}
+
+.btn-linkedin {
+  display: inline-block;
+  background: #0A66C2;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 12px;
+  transition: background 0.3s ease;
+}
+
+.btn-linkedin:hover {
+  background: #004182;
 }
