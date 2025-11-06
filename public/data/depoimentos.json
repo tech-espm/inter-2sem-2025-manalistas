@@ -1,0 +1,18 @@
+{
+  "depoimentos": [
+    {
+      "texto": "O atendimento foi maravilhoso, meu pet ficou lindo e cheiroso!",
+      "nome": "Ana Souza",
+      "descr": "Cliente desde 2022"
+    },
+    {
+      "texto": "Equipe super atenciosa e carinhosa com os animais. Recomendo demais!",
+      "nome": "Carlos Lima"
+    },
+    {
+      "texto": "Ambiente limpo, organizado e com muito amor pelos bichinhos.",
+      "nome": "Beatriz Alves",
+      "descr": "Tutora do Thor"
+    }
+  ]
+}

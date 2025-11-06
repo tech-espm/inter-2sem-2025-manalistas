@@ -344,7 +344,63 @@ h1 {
 .secao6 h1 {
   color: var(--verde1);
   text-align: center;
+  margin-bottom: 24px;
 }
+
+#depoimentosCarousel {
+  position: relative;
+}
+
+.depo-carousel-card {
+  background-color: var(--bege3);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 20px;
+  width: 800px;
+  height: 150px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.depo-carousel-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.4);
+  margin: 25px 25px;
+}
+
+.depo-carousel-card h4 {
+  font-weight: 700;
+}
+
+.depo-carousel-card p {
+  font-style: italic;
+  margin: 0.25rem 0;
+}
+
+#depoimentosCarousel .carousel-control-prev,
+#depoimentosCarousel .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+#depoimentosCarousel .carousel-control-prev-icon,
+#depoimentosCarousel .carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+@media (max-width: 576px) {
+  .depo-carousel-card {
+    width: 90%;
+    height: auto;
+    padding: 1.5rem;
+    font-size: 0.95rem;
+  }
+}
+
 
 .secao1-dc {
   background-image: url("../img/fotos-oficiais/dc.png");
@@ -396,10 +452,36 @@ h1 {
 .secao3-dc {
   background-color: var(--bege2);
 }
-.carousel-control-next,
-.carousel-control-prev {
-  position: relative;
+
+.carousel-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 0 auto;
 }
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: none;
+  border: none;
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 32px;
+  height: 32px;
+  filter: invert(100%);
+}
+
+@media (max-width: 576px) {
+  .carousel-img {
+    width: 90%;
+    margin-bottom: 12px;
+  }
+}
+
 
 .secao4-dc {
   background-color: var(--verde1);
@@ -704,10 +786,88 @@ h1 {
   padding: 80px 50px;
 }
 
+.secao3-bt {
+  background-color: var(--verde3);
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.nossa-sala {
+  text-align: center;
+  color: var(--bege3);
+}
+
 .desc2-bt {
   margin-left: 15%;
   margin-right: 15%;
   line-height: 2;
+}
+
+.carousel-wrapper {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.carousel-container {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  perspective: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-3d {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+
+.carousel-3d img {
+  position: absolute;
+  width: 60%;
+  border-radius: 15px;
+  object-fit: cover;
+  transition: all 0.8s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.carousel-3d img.left {
+  transform: translateX(-200px) scale(0.8) rotateY(25deg);
+  filter: blur(3px);
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.carousel-3d img.center {
+  transform: translateX(0) scale(1) rotateY(0);
+  filter: blur(0);
+  opacity: 1;
+  z-index: 3;
+}
+
+.carousel-3d img.right {
+  transform: translateX(200px) scale(0.8) rotateY(-25deg);
+  filter: blur(3px);
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.carousel-3d img.hidden {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.custom-carousel .carousel-indicators {
+	bottom: -2.5rem;
 }
 
 .secao4-bt {
