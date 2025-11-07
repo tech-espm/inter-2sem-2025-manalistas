@@ -1,38 +1,43 @@
 [
-  { 
-    "id": "evelyn", 
-    "nome": "Evelyn", 
-    "img": "lyn.png", 
-    "frase":"pela benção do oficial celestial", 
-    "descricao": "Dev a ponto de surtaaaaar", 
+  {
+    "id": "evelyn",
+    "nome": "Evelyn",
+    "img": "lyn.png",
+    "frase": "A Dev que fez o site",
+    "descricao": [
+      "Sempre gostei de aprender coisas novas e entender como elas funcionam, sempre buscando unir lógica e criatividade.",
+      "Ao mesmo tempo, valorizo muito o lado artístico e expressivo das coisas. Gosto de criar, experimentar e encontrar novas formas de contar histórias, seja por meio de código, texto ou imagem.",
+      "Meu jeito de aprender é prático: gosto de testar, errar, acertar, desmontar e remontar. E, acima de tudo, acredito que cada projeto é uma chance de crescer e deixar um pedacinho de mim no que faço."
+    ],
     "linkedin": "https://linkedin.com/in/lyn",
-    "github": "https://linkedin.com/in/betina" 
-    },
-
-  { 
-    "id": "betina", 
-    "nome": "Betina", 
-    "img": "bets.png", 
-    "frase":"A filha da dona", 
+    "github": "https://linkedin.com/in/betina"
+  },
+  {
+    "id": "betina",
+    "nome": "Betina",
+    "img": "bets.png",
+    "frase": "A filha da dona",
     "descricao": [
       "Amo viver experiências diferentes e aprender novos assuntos! ",
       "Tenho uma curiosidade constante e, nos últimos tempos, a tecnologia tem despertado cada vez mais o meu interesse — e, por isso, estou em um processo contínuo de aprofundamento, descobrindo conceitos, ferramentas e oportunidades que esse universo oferece. ",
       "Gosto de me desafiar, expandir minha visão de mundo e crescer tanto pessoal quanto profissionalmente."
-    ], 
+    ],
     "linkedin": "https://linkedin.com/in/betina",
     "github": "https://linkedin.com/in/betina"
-    },
-
-  { 
-    "id": "madu", 
-    "nome": "Madu", 
-    "img": "madu.png", 
-    "frase":"pela benção do oficial celestial",
-    "descricao": "teste", 
+  },
+  {
+    "id": "madu",
+    "nome": "Madu",
+    "img": "madu.png",
+    "frase": "Entusiasta de chocolate em momentos de estresse",
+    "descricao": [
+      "Entrei na tecnologia com a intenção de entender como experiências memoráveis são criadas e desenvolvidas com tecnologia. ",
+      "Ao longo da graduação de Ciência de Dados e Negócios, me encontre em disciplinas como User Experience e Visualização de Dados, em que pude entender ",
+      "como posso criar impacto real com tecnologia. "
+    ],
     "linkedin": "https://linkedin.com/in/madu",
     "github": "https://linkedin.com/in/betina"
-    },
-
+  },
   {
     "id": "ihago",
     "nome": "Ihago",
@@ -47,28 +52,30 @@
     "linkedin": "https://linkedin.com/in/ihago",
     "github": "https://linkedin.com/in/betina"
   },
-
-  { 
-    "id": "ihan", 
-    "nome": "Ihan", 
-    "img": "ihan.png", 
-    "frase":"Todos usam mascaras, eu me desfiz das minhas, por isso eles me renegam",
+  {
+    "id": "ihan",
+    "nome": "Ihan",
+    "img": "ihan.png",
+    "frase": "Todos usam mascaras, eu me desfiz das minhas, por isso eles me renegam",
     "descricao": [
       "Apaixonado por tecnologia desde pequeno, sempre fui movido pela curiosidade. ",
       "Antes mesmo de entender o que era programação, já explorava códigos, e me divertia modificando páginas com ferramentas do navegador. ",
       "Esse interesse só cresceu com o tempo e guiou a minha caminhada profissional e acadêmica."
-    ], 
+    ],
     "linkedin": "https://linkedin.com/in/ihan",
     "github": "https://linkedin.com/in/betina"
-    },
-
-  { 
-    "id": "rods", 
-    "nome": "Rodrigo", 
-    "img": "rodrigo.png", 
-    "frase":"pela benção do oficial celestial",
-    "descricao": "teste", 
+  },
+  {
+    "id": "rods",
+    "nome": "Rodrigo",
+    "img": "rodrigo.png",
+    "frase": "sapere aude",
+    "descricao": [
+      "Pesquisador em formação na área de Ciência de Dados, curioso por ciências da natureza natureza e movido por desafios. ",
+      "Fascinado por problemas de lógica, estatística, aprendizado de máquina e pela criatividade por trás da análise de dados. ",
+      "Busco transformar ideias em soluções que gerem impacto real."
+    ],
     "linkedin": "https://linkedin.com/in/rodrigo",
     "github": "https://linkedin.com/in/betina"
-    }
+  }
 ]

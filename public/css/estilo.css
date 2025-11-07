@@ -1199,14 +1199,29 @@ h6 {
   transition: 0.2s;
 }
 
+.perfil-conteudo h2 {
+  font-family: var(--title-font);
+  font-size: 40px;
+}
+
+.perfil-conteudo h3 {
+  font-family: var(--default-font);
+  font-size: 20px;
+}
+
+.perfil-conteudo p {
+  font-family: var(--default-font);
+  font-size: 15px;
+}
+
 .fechar-card:hover {
   color: #f5d9a6;
 }
 
-.btn-linkedin {
+.btn-redes {
   display: inline-block;
-  background: #0A66C2;
-  color: #fff;
+  background: var(--bege3);
+  color: var(--verde1);
   padding: 10px 16px;
   border-radius: 8px;
   text-decoration: none;
@@ -1215,6 +1230,20 @@ h6 {
   transition: background 0.3s ease;
 }
 
-.btn-linkedin:hover {
-  background: #004182;
+.btn-redes:hover {
+  background: var(--bege1);
+}
+
+.secao2-sn .perfis{
+  font-family: var(--title-font);
+  font-size: 40px;
+  font-weight: bolder;
+  color: var(--bege3)
+}
+
+.secao3-sn .perfis{
+  font-family: var(--title-font);
+  font-size: 40px;
+  font-weight: bolder;
+  color: var(--verde3)
 }
