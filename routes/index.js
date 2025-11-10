@@ -73,35 +73,18 @@ router.get("/taxidog", wrap(async(req, res) => {
 }))
 
 router.get("/produtos", wrap(async (req, res) => {
+	
 	let produtos;
 
-	// await sql.connect(async (sql) => {
-	// 	produtos = await sql.query("select id, nome from produto where idempresa = ? and idcliente = ?", [4, 6]);
-	// });
+	await sql.connect(async sql => {
+		// Tudo aqui dentro é executado com a conexão
 
-	let produtoA = {
-		id: 1,
-		nome: "Produto A",
-		valor: 25
-	};
-
-	let produtoB = {
-		id: 2,
-		nome: "Produto B",
-		valor: 15
-	};
-
-	let produtoC = {
-		id: 3,
-		nome: "Produto C",
-		valor: 100
-	};
-
-	let produtosVindosDoBanco = [ produtoA, produtoB, produtoC ];
+		produtos = await sql.query("SELECT proCodi, proNome, ProPrec FROM dogues_produto");
+	});
 
 	let opcoes = {
 		titulo: "Listagem de Produtos",
-		produtos: produtosVindosDoBanco
+		produtos: produtos
 	};
 
 	res.render("index/produtos", opcoes);
