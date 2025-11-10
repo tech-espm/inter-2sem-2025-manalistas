@@ -1,4 +1,4 @@
-fetch('/public/data/depoimentos.json')
+fetch('/public/data/banhoetosa.json')
   .then(res => res.json())
   .then(data => {
     const inner = document.querySelector('#depoimentosCarousel .carousel-inner');
