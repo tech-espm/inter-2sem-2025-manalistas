@@ -777,12 +777,12 @@ h1 {
 }
 
 .secao1-bt {
-  background-image: url("../img/pexels-chevanon-1108099.jpg");
+  background-image: url("../img/fotos-oficiais/bt-capa.png");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center right;
   background-size: cover;
   background-attachment: fixed;
-  padding: 100px 20px;
+  padding: 130px 20px;
   color: white;
   text-align: center;
 }
@@ -797,6 +797,8 @@ h1 {
 .secao1-bt p {
   max-width: 600px;
   margin: 0px auto;
+  font-weight: 500;
+  font-size: large;
 }
 
 .secao2-bt {
@@ -857,7 +859,8 @@ h1 {
   border-radius: 15px;
   object-fit: cover;
   transition: all 0.8s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  opacity: 0;
 }
 
 .carousel-3d img.left {
@@ -868,7 +871,7 @@ h1 {
 }
 
 .carousel-3d img.center {
-  transform: translateX(0) scale(1) rotateY(0);
+  transform: translateX(0) scale(1) rotateY(0deg);
   filter: blur(0);
   opacity: 1;
   z-index: 3;

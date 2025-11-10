@@ -1,9 +1,9 @@
 {
   "imagens": [
-    { "src": "/public/img/fotos-oficiais/bt-car-1.jpeg", "alt": "Banho e tosa 1" },
-    { "src": "/public/img/home/cacau.png", "alt": "Banho e tosa 2" },
-    { "src": "/public/img/home/cacau.png", "alt": "Banho e tosa 3" },
-    { "src": "/public/img/home/cacau.png", "alt": "Banho e tosa 4" },
-    { "src": "/public/img/home/cacau.png", "alt": "Banho e tosa 5" }
+    { "src": "/public/img/fotos-oficiais/bt-car-6.jpeg", "alt": "Banho e tosa 2" },
+    { "src": "/public/img/fotos-oficiais/bt-car-5.jpeg", "alt": "Banho e tosa 4" },
+    { "src": "/public/img/fotos-oficiais/bt-car-2.jpeg", "alt": "Banho e tosa 5" },
+    { "src": "/public/img/fotos-oficiais/bt-car-7.jpeg", "alt": "Banho e tosa 6" },
+    { "src": "/public/img/fotos-oficiais/bt-car-3.jpeg", "alt": "Banho e tosa 3" }
   ]
 }
