@@ -1,0 +1,97 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="mb-3">
+                <label class="form-label" for="c">Nome do Produto</label>
+                <input class="form-control" type="text" name="100" id="inputNome">
+            </div>
+
+
+        </div>
+        <div class="col-sm-4">
+            <div class="mb-3">
+                <label class="form-label" for="inputPreco">Preco</label>
+                <input class="form-control" type="text" name="200" id="inputPreco">
+            </div>
+
+
+        </div>
+        <div class="col-sm-4">
+            <div class="mb-3">
+                <label class="form-label" for="inputQuantidade">Quantidade</label>
+                <input class="form-control" type="text" name="8" id="inputQuantidade">
+            </div>
+
+
+        </div>
+
+        <div class="text-center">
+            <button type="button" class="btn btn-primary" onclick="cadastarProduto()">Cadastrar Produto</button>
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+    async function cadastarProduto() {
+
+        let inputNome = document.getElementById("inputNome")
+        let inputPreco = document.getElementById("inputPreco")
+        let inputQuantidade = document.getElementById("inputQuantidade")
+
+        let ProNome = inputNome.value;
+        let ProPrec = inputPreco.value;
+        let ProQtdA = inputQuantidade.value;
+
+        if (!ProNome) {
+            alert("Nome inválido!");
+            return;
+        }
+
+        if (!ProPrec) {
+            alert("Preço inválido!");
+            return;
+        }
+
+        if (!ProQtdA) {
+            alert("Quandidade inválida!");
+            return;
+        }
+
+
+        let Produto = {
+            "ProNome": ProNome,
+            "ProPrec": ProPrec,
+            "ProQtdA": ProQtdA
+        };
+
+        try {
+
+            let response = await fetch("/api/cadastrarproduto", {
+                method: "POST",
+                body: JSON.stringify(Produto),
+                headers: {
+                    "content-type": "application/json"
+                }
+            });
+
+            if (!response.ok) {
+                alert("Ocorreu um erro ao criar o produto :(");
+                return;
+            }
+
+            inputNome.value = "";
+            inputPreco.value = "";
+            inputQuantidade.value = "";
+
+            alert("O produto foi criadp com sucesso!");
+
+        } catch (ex) {
+            alert("Ocorreu um erro de rede ao criar o produto: " + ex.message)
+        }
+
+
+    }
+
+</script>

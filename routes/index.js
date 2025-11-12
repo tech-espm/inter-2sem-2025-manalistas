@@ -64,16 +64,16 @@ router.get("/loginMembros", wrap(async (req, res) => {
 	res.render("index/loginMembros", opcoes);
 }));
 
-router.get("/taxidog", wrap(async(req, res) => {
+router.get("/taxidog", wrap(async (req, res) => {
 	let opcoes = {
 		titulo: "Táxi Dog"
 	};
-	
+
 	res.render("index/taxidog", opcoes)
 }))
 
 router.get("/produtos", wrap(async (req, res) => {
-	
+
 	let produtos;
 
 	await sql.connect(async sql => {
@@ -89,6 +89,46 @@ router.get("/produtos", wrap(async (req, res) => {
 
 	res.render("index/produtos", opcoes);
 }));
+
+router.get("/cadastrarProduto", wrap(async (req, res) => {
+	let opcoes = {
+		titulo: "cadastrarProduto"
+	};
+
+	res.render("index/cadastrar", opcoes)
+}))
+
+router.post("/api/cadastrarproduto", wrap(async (req, res) => {
+	let produto = req.body
+
+	if (!produto.ProNome) {
+		res.status(400).json("Nome inválido!");
+		return;
+	}
+
+	if (!produto.ProPrec) {
+		res.status(400).json("Preço inválido!");
+		return;
+	}
+
+	if (!produto.ProQtdA) {
+		res.status(400).json("Quandidade inválida!");
+		return;
+	}
+
+	await sql.connect(async sql => {
+		let parametros = [
+			produto.ProNome,
+			parseFloat(produto.ProPrec),
+			parseInt(produto.ProQtdA)
+		]
+		
+		produtos = await sql.query("INSERT INTO dogues_produto (ProNome, ProPrec, ProQtdA) VALUES (?, ?, ?)", parametros)
+	})
+
+	res.json("Rafa, te amo")
+
+}))
 
 
 module.exports = router;
