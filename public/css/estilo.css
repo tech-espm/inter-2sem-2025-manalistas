@@ -87,7 +87,7 @@ nav {
 }
 
 .secao1 {
-  background-image: url("../img/home/cacau.png");
+  background-image: url("../img/fotos-oficiais/cacau.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -914,9 +914,9 @@ h1 {
 }
 
 .secao1-cl {
-  background-image: url("../img/pexels-chevanon-1108099.jpg");
+  background-image: url("../img/fotos-oficiais/cl-capa1.png");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center bottom;
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 20px;
@@ -970,7 +970,7 @@ h1 {
 }
 
 .secao3-cl {
-  background-image: url("../img/fotos-oficiais/fisio_editada-copia.jpg");
+  background-image: url("../img/elements/3B5F4B\ \(1\).png");
   background-size: cover;
   height: 200px;
 }
@@ -1010,7 +1010,7 @@ h1 {
 }
 
 .secao1-td {
-  background-image: url("../img/fotos-oficiais/taxi.png");
+  background-image: url("../img/fotos-oficiais/taxi-capa.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -1030,6 +1030,8 @@ h1 {
 .secao1-td p {
   max-width: 600px;
   margin: 0px auto;
+  font-weight: bold;
+  font-size: large;
 }
 
 .secao2-td {
@@ -1062,6 +1064,11 @@ h1 {
 
 .subsecao-3-texto-td p {
   padding-bottom: 15px;
+}
+
+.subsecao-3-texto-td ul {
+  line-height: 2.5;
+  font-size: large;
 }
 
 footer {
