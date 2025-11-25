@@ -96,57 +96,6 @@ nav {
   color: white;
 }
 
-.secao1-login {
-  background-color: var(--bege2);
-  background-image: url("/public/img/SVG/SVG/FundoMembros.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 200px 20px;
-}
-
-.container1-login {
-  max-width: 400px;
-  text-align: center;
-  margin: 0 auto;
-  background-color: #033228;
-  padding: 7px 20px;
-  border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(3, 50, 40, 0.3);
-}
-
-.h1-login{
-    font-family: var(--title-font);
-    font-size: 40px;
-    font-weight: bolder;
-    padding: 40px 0px 10px 0px;
-    color: var(--bege3)
-}
-
-
-
-.logo-login{
-    max-width: 400px;
-    text-align: center;
-    margin: auto;
-}
-
-.logo-login img{
-    max-width: 150px;
-    text-align: center;
-    margin: auto;
-}
-
-.secao1-Membros{
-  background-color: var(--bege2);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 200px 20px;
-}
-
 .secao1 p {
   font-size: larger;
   padding: 10px;
@@ -224,6 +173,17 @@ h1 {
 
 .subsecao-3-card {
   padding: 0px 30px 30px 30px;
+}
+
+.card-home {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card-home:hover {
+  transform: translateY(-5px);
 }
 
 .card {
@@ -1047,12 +1007,20 @@ h1 {
   background-color: var(--bege2);
   color: var(--cinza1);
   text-align: justify;
-  padding: 80px 0px 80px 50px;
+  padding: 80px 20px 80px 30px;
 }
 
 .desc2-td {
   line-height: 2;
   padding: 30px;
+}
+
+.subsecao-2-td{
+  padding: 0px 30px;
+}
+
+.subsecao-2-img-td{
+  padding-top: 50px;
 }
 
 .secao3-td {
@@ -1285,4 +1253,53 @@ h6 {
   font-size: 40px;
   font-weight: bolder;
   color: var(--verde3)
+}
+
+.secao1-login {
+  background-color: var(--bege2);
+  background-image: url("/public/img/SVG/SVG/FundoMembros.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px 20px;
+}
+
+.container1-login {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #033228;
+  padding: 7px 20px;
+  border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(3, 50, 40, 0.3);
+}
+
+.h1-login{
+    font-family: var(--title-font);
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 40px 0px 10px 0px;
+    color: var(--bege3)
+}
+
+.logo-login{
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.logo-login img{
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.secao1-Membros{
+  background-color: var(--bege2);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px 20px;
 }
