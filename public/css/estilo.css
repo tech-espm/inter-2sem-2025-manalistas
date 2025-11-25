@@ -138,6 +138,15 @@ nav {
     margin: auto;
 }
 
+.secao1-Membros{
+  background-color: var(--bege2);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px 20px;
+}
+
 .secao1 p {
   font-size: larger;
   padding: 10px;

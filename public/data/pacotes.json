@@ -1,0 +1,6 @@
+{
+  "imagens": [
+    { "src": "/public/img/AreaMembros/promo1.jpg", "alt": "Promoção 1" },
+    { "src": "/public/img/AreaMembros/promo2.jpg", "alt": "Promoção 2" }
+  ]
+}

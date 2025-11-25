@@ -64,6 +64,13 @@ router.get("/loginMembros", wrap(async (req, res) => {
 	res.render("index/loginMembros", opcoes);
 }));
 
+router.get("/areaMembros", wrap(async (req, res) => {
+	let opcoes = {
+		titulo: "Login Membros"
+	};
+	res.render("index/areaMembros", opcoes);
+}));
+
 router.get("/taxidog", wrap(async (req, res) => {
 	let opcoes = {
 		titulo: "Táxi Dog"

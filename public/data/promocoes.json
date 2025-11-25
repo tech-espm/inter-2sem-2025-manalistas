@@ -1,0 +1,9 @@
+{
+  "imagens": [
+    { "src": "/public/img/AreaMembros/Banho.jpg", "alt": "Promoção Banho" },
+    { "src": "/public/img/AreaMembros/Brinquedo.jpg", "alt": "Promoção Brinquedo" },
+    { "src": "/public/img/AreaMembros/Caminhas.jpg", "alt": "Promoção Caminhas" },
+    { "src": "/public/img/AreaMembros/Coleira.jpg", "alt": "Promoção Coleira" },
+    { "src": "/public/img/AreaMembros/Racao.jpg", "alt": "Promoção Racao" }
+  ]
+}
