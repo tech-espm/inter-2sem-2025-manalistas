@@ -801,6 +801,7 @@ h1 {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .carousel-container {
@@ -824,7 +825,7 @@ h1 {
 
 .carousel-3d img {
   position: absolute;
-  width: 60%;
+  width: 190px;
   border-radius: 15px;
   object-fit: cover;
   transition: all 0.8s ease;
@@ -1298,8 +1299,4 @@ h6 {
 .secao1-Membros{
   background-color: var(--bege2);
   padding: 40px;
-}
-
-#carouselPromocoes{
-  max-width: 30%;
 }
