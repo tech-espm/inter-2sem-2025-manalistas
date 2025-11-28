@@ -1297,9 +1297,9 @@ h6 {
 
 .secao1-Membros{
   background-color: var(--bege2);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 200px 20px;
+  padding: 40px;
+}
+
+#carouselPromocoes{
+  max-width: 30%;
 }
