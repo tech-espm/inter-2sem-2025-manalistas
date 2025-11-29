@@ -440,28 +440,11 @@ h1 {
 
 .secao3-dc {
   background-color: var(--bege2);
+  height: 500px;
 }
 
-.carousel-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  margin: 0 auto;
-}
-
-
-.carousel-control-prev,
-.carousel-control-next {
-  background: none;
-  border: none;
-  opacity: 1;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  width: 32px;
-  height: 32px;
-  filter: invert(100%);
+#carouselDayCare {
+  width: 100%;
 }
 
 @media (max-width: 576px) {
