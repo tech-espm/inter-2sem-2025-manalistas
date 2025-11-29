@@ -1,0 +1,9 @@
+{
+  "imagens": [
+    { "src": "/public/img/fotos-oficiais/dc/dc-car-1.jpeg", "alt": "Day care 1" },
+    { "src": "/public/img/fotos-oficiais/dc/dc-car-2.jpeg", "alt": "Day care 2" },
+    { "src": "/public/img/fotos-oficiais/dc/dc-car-3.jpeg", "alt": "Day care 3" },
+    { "src": "/public/img/fotos-oficiais/dc/dc-car-4.jpeg", "alt": "Day care 4" },
+    { "src": "/public/img/fotos-oficiais/dc/dc-car-5.jpeg", "alt": "Day care 5" }
+  ]
+}

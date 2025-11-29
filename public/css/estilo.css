@@ -87,7 +87,7 @@ nav {
 }
 
 .secao1 {
-  background-image: url("../img/fotos-oficiais/cacau.png");
+  background-image: url("../img/fotos-oficiais/home/cacau.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -306,7 +306,7 @@ h1 {
 
 .img-pet-stop {
   height: 300px;
-  background-image: url(../img/fotos-oficiais/malzoni.jpeg);
+  background-image: url(../img/fotos-oficiais/home/malzoni.jpeg);
   background-size: cover;
   background-position: center left;
   border-bottom-left-radius: 15px;
@@ -392,7 +392,7 @@ h1 {
 
 
 .secao1-dc {
-  background-image: url("../img/fotos-oficiais/dc.png");
+  background-image: url("../img/fotos-oficiais/dc/dc.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -524,7 +524,7 @@ h1 {
 }
 
 .secao1-ht {
-  background-image: url("../img/fotos-oficiais/ht-capa.png");
+  background-image: url("../img/fotos-oficiais/ht/ht-capa.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -670,7 +670,7 @@ h1 {
 }
 
 .secao1-ad {
-  background-image: url("../img/fotos-oficiais/ad-pipa-capa.png");
+  background-image: url("../img/fotos-oficiais/ad/ad-pipa-capa.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -746,7 +746,7 @@ h1 {
 }
 
 .secao1-bt {
-  background-image: url("../img/fotos-oficiais/bt-capa.png");
+  background-image: url("../img/fotos-oficiais/bt/bt-capa.png");
   background-repeat: no-repeat;
   background-position: center right;
   background-size: cover;
@@ -884,7 +884,7 @@ h1 {
 }
 
 .secao1-cl {
-  background-image: url("../img/fotos-oficiais/cl-capa1.png");
+  background-image: url("../img/fotos-oficiais/cl/cl-capa.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -940,7 +940,7 @@ h1 {
 }
 
 .secao3-cl {
-  background-image: url("../img/elements/3B5F4B\ \(1\).png");
+  background-image: url("../img/elements/elements_cl.png");
   background-size: cover;
   height: 200px;
 }
@@ -957,7 +957,7 @@ h1 {
 }
 
 .secao5-cl {
-  background-image: url("../img/fotos-oficiais/fisio_editada-copia.jpg");
+  background-image: url("../img/fotos-oficiais/cl/fisio-capa.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -980,7 +980,7 @@ h1 {
 }
 
 .secao1-td {
-  background-image: url("../img/fotos-oficiais/taxi-capa.png");
+  background-image: url("../img/fotos-oficiais/td/taxi-capa.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
