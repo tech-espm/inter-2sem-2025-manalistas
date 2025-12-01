@@ -19,3 +19,96 @@
 </div>
 
 <script src="\public\js\promocoes.js"></script>
+
+<!--Ihan mudança-->
+
+<!-- Estilos do calendário -->
+<style>
+    .calendar-container {
+        width: 320px;
+        padding: 20px;
+        border-radius: 20px;
+        background: #ffffff;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .calendar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .calendar-header h4 {
+        margin: 0;
+    }
+
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+        text-align: center;
+    }
+
+    .calendar-day {
+        padding: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .calendar-day:hover {
+        background: #e0e7ff;
+    }
+
+    .selected-day {
+        background: #3b82f6 !important;
+        color: white;
+        font-weight: bold;
+    }
+</style>
+
+
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4">Agendar Serviços Petshop</h2>
+
+    <!-- Seleção do serviço -->
+    <label class="fw-bold">Selecione o serviço:</label>
+    <select id="servico" class="form-select mb-4">
+        <option>Banho</option>
+        <option>Tosa</option>
+        <option>Day Care</option>
+        <option>Consulta</option>
+    </select>
+
+    <!-- Calendário -->
+    <div id="calendar" class="calendar-container mx-auto mb-4"></div>
+
+    <!-- Escolha do horário -->
+    <label class="fw-bold">Escolha o horário:</label>
+    <select id="horario" class="form-select mb-4">
+        <option disabled selected>Selecione um horário</option>
+
+        <optgroup label="Manhã">
+            <option>8:30</option>
+            <option>9:30</option>
+            <option>10:30</option>
+            <option>11:30</option>
+        </optgroup>
+
+        <optgroup label="Tarde">
+            <option>13:30</option>
+            <option>14:30</option>
+            <option>15:30</option>
+            <option>16:30</option>
+        </optgroup>
+    </select>
+
+    <!-- Botão -->
+    <button id="confirmar" class="btn btn-primary w-100 mb-5">Confirmar Agendamento</button>
+
+</div>
+
+<!-- Script do calendário -->
+<script src="\public\js\calendario.js"></script>
