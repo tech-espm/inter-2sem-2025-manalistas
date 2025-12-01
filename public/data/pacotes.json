@@ -1,11 +1,11 @@
 {
   "imagens": [
-    { "src": "/public/img/AreaMembros/Adestramento.jpg", "alt": "Pacote Adestramento" },
-    { "src": "/public/img/AreaMembros/Banho.jpg", "alt": "Pacote Banho" },
-    { "src": "/public/img/AreaMembros/Clinica.jpg", "alt": "Pacote Clinica" },
-    { "src": "/public/img/AreaMembros/Creche.jpg", "alt": "Pacote Creche" },
-    { "src": "/public/img/AreaMembros/Hotelzinho.jpg", "alt": "Pacote Hotelzinho" },
-    { "src": "/public/img/AreaMembros/Pacote.jpg", "alt": "Pacote Pacote" },
-    { "src": "/public/img/AreaMembros/TaxiDog.jpg", "alt": "Pacote Taxi Dog" }
+    { "src": "/public/img/AreaMembros/Adrestramento.png", "alt": "Pacote Adestramento" },
+    { "src": "/public/img/AreaMembros/Banho.png", "alt": "Pacote Banho" },
+    { "src": "/public/img/AreaMembros/Clinica.png", "alt": "Pacote Clinica" },
+    { "src": "/public/img/AreaMembros/Creche.png", "alt": "Pacote Creche" },
+    { "src": "/public/img/AreaMembros/Hotelzinho.png", "alt": "Pacote Hotelzinho" },
+    { "src": "/public/img/AreaMembros/Pacote.png", "alt": "Pacote Pacote" },
+    { "src": "/public/img/AreaMembros/TaxiDog.png", "alt": "Pacote Taxi Dog" }
   ]
 }
