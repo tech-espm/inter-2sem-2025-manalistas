@@ -1,9 +1,9 @@
 {
   "imagens": [
-    { "src": "/public/img/AreaMembros/Banho.jpg", "alt": "Promoção Banho" },
-    { "src": "/public/img/AreaMembros/Brinquedo.jpg", "alt": "Promoção Brinquedo" },
-    { "src": "/public/img/AreaMembros/Caminhas.jpg", "alt": "Promoção Caminhas" },
-    { "src": "/public/img/AreaMembros/Coleira.jpg", "alt": "Promoção Coleira" },
-    { "src": "/public/img/AreaMembros/Racao.jpg", "alt": "Promoção Racao" }
+    { "src": "/public/img/AreaMembros/Banho.png", "alt": "Promoção Banho" },
+    { "src": "/public/img/AreaMembros/brinquedos.png", "alt": "Promoção Brinquedo" },
+    { "src": "/public/img/AreaMembros/caminha.png", "alt": "Promoção Caminhas" },
+    { "src": "/public/img/AreaMembros/Coleira.png", "alt": "Promoção Coleira" },
+    { "src": "/public/img/AreaMembros/Racao.png", "alt": "Promoção Racao" }
   ]
 }
