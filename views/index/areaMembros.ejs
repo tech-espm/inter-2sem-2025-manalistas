@@ -1,32 +1,38 @@
 <div class="secao1-Membros">
-   <h1 class="PPareaMembros">Promoções</h1>
-
-   <div class="carousel-wrapper secao1-Membros">
-        <div class="carousel-container">
-            <div id="carouselPromocoes" class="carousel-3d"></div>
+    <div id="destaque">
+        <h1 class="PPareaMembros">Promoções</h1>
+        <div class="carousel-wrapper">
+            <div class="carousel-container">
+                <div id="carouselPromocoes" class="carousel-3d"></div>
+            </div>
         </div>
     </div>
 </div>
 
 
 <div class="secao1-Membros">
-   <h1 class="PPareaMembros"> Pacotes</h1>
-
-    <div class="carousel-wrapper secao1-Membros">
-        <div class="carousel-container">
-            <div id="carouselPacotes" class="carousel-3d"></div>
+    <div id="destaque">
+        <h1 class="PPareaMembros"> Pacotes</h1>
+        <div class="carousel-wrapper">
+            <div class="carousel-container">
+                <div id="carouselPacotes" class="carousel-3d"></div>
+            </div>
         </div>
-    </div>
+    </div>            
 </div>
 
-
-
 <script src="\public\js\promocoes.js"></script>
-
 <!--Ihan mudança-->
-
 <!-- Estilos do calendário -->
 <style>
+    h1 {
+        color: #e0e7ff;
+    }
+    #destaque{
+        background-color: #033228;
+        max-width: 1000px;
+        border-radius: 20px;
+    }
     .calendar-container {
         width: 320px;
         padding: 20px;
@@ -69,12 +75,13 @@
         color: white;
         font-weight: bold;
     }
+    
 </style>
 
 
-<div class="container-fluid pt-5 verdeCalen text-white">
+<div class="container-fluid pt-5 verdeCalen text-black">
 
-    <h2 class="text-center mb-4">Agendar Serviços Petshop</h2>
+    <h1 class="text-center mb-4">Agendar Serviços Petshop</h1>
 
     <!-- Seleção do serviço -->
     <label class="fw-bold">Selecione o serviço:</label>

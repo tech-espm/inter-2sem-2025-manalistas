@@ -1282,6 +1282,8 @@ h6 {
 .secao1-Membros{
   background-color: var(--bege2);
   padding: 40px;
+  width: 100vw;
+  max-width: 1000px;
 }
 
 .PPareaMembros {
