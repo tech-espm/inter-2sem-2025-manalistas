@@ -1336,3 +1336,21 @@ h6 {
     .verdeCalen{
        background-color: #033228;
     }
+
+.foto-estatistica{
+  padding: 30px;
+  
+}
+.foto-estatistica h1, h2{
+  font-family: var(--default-font);
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.foto-estatistica img{
+  border-radius: 30px;
+}
+.estatistica-img{
+  border-radius: 30px;
+}
