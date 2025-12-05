@@ -1283,3 +1283,54 @@ h6 {
   background-color: var(--bege2);
   padding: 40px;
 }
+
+.PPareaMembros {
+  text-align: center;
+}
+
+.calendar-container {
+        width: 320px;
+        padding: 20px;
+        border-radius: 20px;
+        background: #ffffff;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .calendar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .calendar-header h4 {
+        margin: 0;
+    }
+
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+        text-align: center;
+    }
+
+    .calendar-day {
+        padding: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .calendar-day:hover {
+        background: #e0e7ff;
+    }
+
+    .selected-day {
+        background: #3b82f6 !important;
+        color: white;
+        font-weight: bold;
+    }
+
+    .verdeCalen{
+       background-color: #033228;
+    }
