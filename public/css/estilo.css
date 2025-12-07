@@ -1279,16 +1279,6 @@ h6 {
     margin: auto;
 }
 
-.secao1-Membros{
-  background-color: var(--bege2);
-  padding: 40px;
-  width: 100vw;
-  max-width: 1000px;
-}
-
-.PPareaMembros {
-  text-align: center;
-}
 
 .calendar-container {
         width: 320px;

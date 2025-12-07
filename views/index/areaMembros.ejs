@@ -1,5 +1,5 @@
-<div class="secao1-Membros">
-    <div id="destaque">
+<div class="container p-5 text-black">
+    <div class="secao1-Membros box cor1">
         <h1 class="PPareaMembros">Promoções</h1>
         <div class="carousel-wrapper">
             <div class="carousel-container">
@@ -7,31 +7,47 @@
             </div>
         </div>
     </div>
-</div>
 
 
-<div class="secao1-Membros">
-    <div id="destaque">
+    <div class="secao1-Membros box cor2">
         <h1 class="PPareaMembros"> Pacotes</h1>
         <div class="carousel-wrapper">
             <div class="carousel-container">
                 <div id="carouselPacotes" class="carousel-3d"></div>
             </div>
-        </div>
-    </div>            
-</div>
+        </div>  
+    </div>
+</div>    
 
 <script src="\public\js\promocoes.js"></script>
 <!--Ihan mudança-->
 <!-- Estilos do calendário -->
 <style>
-    h1 {
-        color: #e0e7ff;
-    }
-    #destaque{
-        background-color: #033228;
+    .secao1-Membros{
+        padding: 0px;
+        max-width: 1000px;
+        margin: 0px auto 20px auto;
         max-width: 1000px;
         border-radius: 20px;
+    }
+
+    .cor1 {
+        background-color: var(--bege1);
+    }
+    .cor2 {
+        background-color: var(--bege2);
+    }
+
+    .PPareaMembros {
+        text-align: center;
+    }
+
+    .conteudo{
+        background-color: var(--verde1);
+    }
+
+    h1 {
+        color: var(--verde1);
     }
     .calendar-container {
         width: 320px;
@@ -75,50 +91,87 @@
         color: white;
         font-weight: bold;
     }
+
+    .areaCalendario {
+        background-color: #527B5D; /* opcional, só pra delimitar visualmente */
+        padding: 40px 30px; /* espaço interno em cima e embaixo */
+    }
+
+    .areaCentral {
+        max-width: 1000px;   /* largura máxima desejada */
+        margin: 0 auto;      /* centraliza horizontalmente */
+        padding: 40px 0px;       /* dá um "respiro" para não ficar colado no conteúdo */
+        border-radius: 20px; /* opcional */
+        background-color: #033228;
+    }
+
+    .servicoCoresTexto {
+        color: #ffffff
+    }
     
 </style>
 
+<!-- SEÇÃO ////////////////////    -->
 
-<div class="container-fluid pt-5 verdeCalen text-black">
+<div class="container-fluid text-black areaCalendario">
 
-    <h1 class="text-center mb-4">Agendar Serviços Petshop</h1>
+    
+    <h1 class="text-center servicoCoresTexto">Agendar Serviços Petshop</h1>
 
-    <!-- Seleção do serviço -->
-    <label class="fw-bold">Selecione o serviço:</label>
-    <select id="servico" class="form-select mb-4">
-        <option>Banho</option>
-        <option>Tosa</option>
-        <option>Day Care</option>
-        <option>Consulta</option>
-    </select>
+    <div class="container-fluid verdeCalen areaCentral">  
 
-    <!-- Calendário -->
-    <div id="calendar" class="calendar-container mx-auto mb-4"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-start g-5">
 
-    <!-- Escolha do horário -->
-    <label class="fw-bold">Escolha o horário:</label>
-    <select id="horario" class="form-select mb-4">
-        <option disabled selected>Selecione um horário</option>
+                <!-- COLUNA ESQUERDA – Calendário -->
+                <div class="col-12 col-md-5">
+                    <div id="calendar" class="calendar-container mx-auto"></div>
+                </div>
 
-        <optgroup label="Manhã">
-            <option>8:30</option>
-            <option>9:30</option>
-            <option>10:30</option>
-            <option>11:30</option>
-        </optgroup>
+                <!-- COLUNA DIREITA – Inputs -->
+                <div class="col-12 col-md-5">
 
-        <optgroup label="Tarde">
-            <option>13:30</option>
-            <option>14:30</option>
-            <option>15:30</option>
-            <option>16:30</option>
-        </optgroup>
-    </select>
+                    <!-- Seleção do serviço -->
+                    <label class="fw-bold servicoCoresTexto">Selecione o serviço:</label>
+                    <select id="servico" class="form-select mb-4">
+                        <option>Banho</option>
+                        <option>Tosa</option>
+                        <option>Day Care</option>
+                        <option>Consulta</option>
+                    </select>
 
-    <!-- Botão -->
-    <button id="confirmar" class="btn btn-primary w-100 mb-5">Confirmar Agendamento</button>
+                    <!-- Escolha do horário -->
+                    <label class="fw-bold servicoCoresTexto">Escolha o horário:</label>
+                    <select id="horario" class="form-select mb-4">
+                        <option disabled selected>Selecione um horário</option>
 
+                        <optgroup label="Manhã">
+                            <option>8:30</option>
+                            <option>9:30</option>
+                            <option>10:30</option>
+                            <option>11:30</option>
+                        </optgroup>
+
+                        <optgroup label="Tarde">
+                            <option>13:30</option>
+                            <option>14:30</option>
+                            <option>15:30</option>
+                            <option>16:30</option>
+                        </optgroup>
+                    </select>
+
+                    <!-- Botão -->
+                    <button id="confirmar" class="btn btn-primary w-100">Confirmar Agendamento</button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
 </div>
+
+<!-- SEÇÃO ////////////////////    -->
 
 <!-- Script do calendário -->
 <script src="\public\js\calendario.js"></script>
