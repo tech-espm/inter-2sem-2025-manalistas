@@ -2,7 +2,14 @@
     <div class="capa" id="capa">
         <img src="../public/img/SVG/SVG/Logo-Principal-Branco.svg" alt="logo clube dogues">
         <p> Seu pet em casa, longe de casa </p>
-        <a class="link1" href="https://l.instagram.com/?u=http%3A%2F%2Fwa.me%2F551129858566%3Ffbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnrSMvvNT227Z7T4o_0b1USKA_h5BISzV3oo3_h83bUGchn6TPdLK246EdQrU_aem__jw1FVZqy4x7T3KYxtIy7Q&e=AT3Es4woYE1p3f-g-V_jMiaEg703dUCcyUwhJKr1eq4whcYBfvVYBoysf6_NETsmdCXt8MU4PME7LUDXn3xpSNZ1dmfdCvPNwnFcSFy_eggMr4n0QqoXQ-FmLQ">
+        <%
+            const numeroTelefone = '551129858566';
+            const mensagemPadrao = 'Olá, vim pelo site, gostaria de mais informações!';
+        %>
+
+        <a class="link1" 
+        href="https://wa.me/<%= numeroTelefone %>?text=<%= encodeURIComponent(mensagemPadrao) %>" 
+        target="_blank">
             ENTRE EM CONTATO
         </a>
     </div>

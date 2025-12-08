@@ -23,9 +23,16 @@
   
   <script src="/public/js/carousel.js"></script>
 
-  <a class="link1" href="https://google.com">
-    AGENDE UM HORÁRIO
-  </a>
+          <%
+            const numeroTelefone = '551129858566';
+            const mensagemPadrao = 'Olá, vim pelo site e gostaria de agendar um horário para banho e tosa';
+        %>
+
+        <a class="link1" 
+        href="https://wa.me/<%= numeroTelefone %>?text=<%= encodeURIComponent(mensagemPadrao) %>" 
+        target="_blank">
+            AGENDE UM HORÁRIO
+        </a>
 </div>
 
 <div class="secao4-bt">
