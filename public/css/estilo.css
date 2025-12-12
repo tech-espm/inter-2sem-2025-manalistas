@@ -221,6 +221,7 @@ h1 {
   padding-top: 30px;
 }
 
+
 .titulo4 {
   color: var(--verde5);
   text-align: center;
@@ -460,6 +461,8 @@ h1 {
 
 .secao4-dc {
   background-color: var(--verde1);
+  text-align: center;
+  background-color: #002E23;
 }
 
 .secao4-dc h1 {
