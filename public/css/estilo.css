@@ -132,20 +132,20 @@ h1 {
   color: var(--preto1);
 }
 
-.secao2{
+.secao2 {
   background-color: var(--bege2);
   padding: 20px;
 }
 
 .animate-on-scroll {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 1.8s ease, transform 1.2s ease;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.8s ease, transform 1.2s ease;
 }
 
 .animate-on-scroll.show {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .subsecao-2-texto {
@@ -157,8 +157,10 @@ h1 {
 .subsecao-2-img {
   padding: 20px 90px 20px 45px;
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente */
 }
 
 .secao3 {
@@ -194,6 +196,7 @@ h1 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
 .card-title {
   text-align: center;
   font-size: 30px;
@@ -321,7 +324,7 @@ h1 {
   position: relative;
 }
 
-.secao5 > iframe {
+.secao5>iframe {
   width: 100%;
   aspect-ratio: 16 /9;
 }
@@ -347,14 +350,14 @@ h1 {
   margin: 20px 20px;
   width: 800px;
   height: 150px;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
   text-align: center;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .depo-carousel-card:hover {
   transform: scale(1.02);
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
   margin: 25px 25px;
 }
 
@@ -645,6 +648,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 40px;
 }
+
 .subsecao-6-ht {
   border-color: var(--verde1);
   border-width: 2px;
@@ -812,7 +816,7 @@ h1 {
   border-radius: 15px;
   object-fit: cover;
   transition: all 0.8s ease;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
   opacity: 0;
 }
 
@@ -843,7 +847,7 @@ h1 {
 }
 
 .custom-carousel .carousel-indicators {
-	bottom: -2.5rem;
+  bottom: -2.5rem;
 }
 
 .secao4-bt {
@@ -999,11 +1003,11 @@ h1 {
   padding: 30px;
 }
 
-.subsecao-2-td{
+.subsecao-2-td {
   padding: 0px 30px;
 }
 
-.subsecao-2-img-td{
+.subsecao-2-img-td {
   padding-top: 50px;
 }
 
@@ -1039,6 +1043,7 @@ footer {
   font-family: var(--default-font);
   margin: auto;
 }
+
 h6 {
   font-family: var(--title-font);
 }
@@ -1151,7 +1156,7 @@ h6 {
   align-items: center;
   z-index: 1000;
   backdrop-filter: blur(4px);
-    
+
 }
 
 .perfil-conteudo {
@@ -1172,6 +1177,7 @@ h6 {
     transform: scale(0.9);
     opacity: 0;
   }
+
   to {
     transform: scale(1);
     opacity: 1;
@@ -1225,14 +1231,14 @@ h6 {
   background: var(--bege1);
 }
 
-.secao2-sn .perfis{
+.secao2-sn .perfis {
   font-family: var(--title-font);
   font-size: 40px;
   font-weight: bolder;
   color: var(--bege3)
 }
 
-.secao3-sn .perfis{
+.secao3-sn .perfis {
   font-family: var(--title-font);
   font-size: 40px;
   font-weight: bolder;
@@ -1256,91 +1262,149 @@ h6 {
   background-color: #033228;
   padding: 7px 20px;
   border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(3, 50, 40, 0.3);
+  box-shadow: 0 4px 15px rgba(3, 50, 40, 0.3);
 }
 
-.h1-login{
-    font-family: var(--title-font);
-    font-size: 40px;
-    font-weight: bolder;
-    padding: 40px 0px 10px 0px;
-    color: var(--bege3)
+.h1-login {
+  font-family: var(--title-font);
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 40px 0px 10px 0px;
+  color: var(--bege3)
 }
 
-.logo-login{
-    max-width: 400px;
-    text-align: center;
-    margin: auto;
+.logo-login {
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
 }
 
-.logo-login img{
-    max-width: 150px;
-    text-align: center;
-    margin: auto;
+.logo-login img {
+  max-width: 150px;
+  text-align: center;
+  margin: auto;
 }
 
 
 .calendar-container {
-        width: 320px;
-        padding: 20px;
-        border-radius: 20px;
-        background: #ffffff;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
-    .calendar-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 10px;
-    }
-
-    .calendar-header h4 {
-        margin: 0;
-    }
-
-    .calendar-grid {
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        gap: 5px;
-        text-align: center;
-    }
-
-    .calendar-day {
-        padding: 8px;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: 0.2s;
-    }
-
-    .calendar-day:hover {
-        background: #e0e7ff;
-    }
-
-    .selected-day {
-        background: #3b82f6 !important;
-        color: white;
-        font-weight: bold;
-    }
-
-    .verdeCalen{
-       background-color: #033228;
-    }
-
-.foto-estatistica{
-  padding: 30px;
-  
+  width: 320px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
-.foto-estatistica h1, h2{
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calendar-header h4 {
+  margin: 0;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+}
+
+.calendar-day {
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.calendar-day:hover {
+  background: #e0e7ff;
+}
+
+.selected-day {
+  background: #3b82f6 !important;
+  color: white;
+  font-weight: bold;
+}
+
+.verdeCalen {
+  background-color: #033228;
+}
+
+.foto-estatistica {
+  padding: 30px;
+
+}
+
+.foto-estatistica h1,
+h2 {
   font-family: var(--default-font);
   padding: 10px;
   text-align: center;
   font-weight: bold;
 }
 
-.foto-estatistica img{
+.foto-estatistica img {
   border-radius: 30px;
 }
-.estatistica-img{
+
+.estatistica-img {
   border-radius: 30px;
+}
+
+.product-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #11603e;
+  color: white !important;
+  transform: scale(0.97);
+  outline: none !important;
+}
+
+.btn-produtos {
+  color: #11603e !important;
+  border-color: #11603e !important;
+}
+
+/* Centralizar bem e adicionar padding externo */
+nav[aria-label="Navegação de páginas"] {
+  padding: 20px 0;
+  /* espaço acima e abaixo */
+}
+
+/* Estilo padrão da paginação */
+.pagination .page-link {
+  color: #11603e;
+  /* texto laranja */
+  border-color: #11603e;
+  /* borda laranja */
+  transition: .2s;
+}
+
+/* Hover */
+.pagination .page-link:hover {
+  background-color: #11603e;
+  color: white;
+  border-color: #11603e;
+}
+
+/* Estado ativo (página atual) */
+.pagination .page-item.active .page-link {
+  background-color: #11603e;
+  border-color: #11603e;
+  color: white;
+}
+
+/* Estado disabled (anterior/próximo desativados) */
+.pagination .page-item.disabled .page-link {
+  color: white;
+  /* laranja mais fraco */
+  border-color: #11603e;
+  background-color: rgba(255, 255, 255, 0.5);
 }
